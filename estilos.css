@@ -1,0 +1,475 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.headleft, .headright , .iconosright , .headabajo{
+    background-color:#293241; 
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    /*background-color: #293241;*/
+}
+.main{
+    background-color: #747474;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 0.8fr 0.09fr;
+    grid-template-rows: repeat(3 , auto);
+    color: #ffffff;
+    grid-gap: 1px;
+/*-----------------------------------------------------------------------------------*/
+    /*--------LOGO------*/ 
+}#logo{
+    width: 15%;
+    margin: 40px 0 0 40px;
+
+}
+/*---------TEXTO IZQUIERDO----------*/
+.textoleft{
+    margin-top: 3.125em;
+    margin-left: 7.500em;
+    font-weight: 300;
+    margin-right: auto;
+    display: block;
+}
+
+.textoleft h1{
+    width: 50%;
+    font-weight: 300;
+    font-size: 90px;
+}
+.textoleft p{
+    margin-top: 1.5em;
+    font-size: 22px;
+    width: 70%;
+}
+.textoleft h3{
+    width: 310px;
+    margin-top: 1em;
+    font-size:30px ;
+    font-weight: 300;
+    border-bottom: solid 1px #ffffff;
+    padding-bottom: 0.4em;
+}
+/*------------TEXTO SUPERIOR DERECHO-------*/   
+.menu{
+    border-bottom: 1px solid #747474;
+    padding-bottom: 50px;
+    text-align: center;
+    padding: 40px;
+}
+.bot{
+    border: 1px solid white;
+    background: none;
+    padding: 30px 40px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    margin:10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.bot1, .bot2{
+    color: white;
+}
+.bot3, .bot4{
+    color: white;
+}
+.bot1:hover, .bot2:hover{
+    color: #3498db;
+}
+.bot3:hover, .bot4:hover{
+    color: #3498db;
+}
+.bot::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%
+    height: 0%;
+    background: red;
+    z-index: -1;
+    transition: 0.8s; 
+}
+
+
+/*--------IMAGEN---------*/
+
+#candado{
+    margin-top: 50px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/*------ICONOS DERECHA-------*/
+.iconosright{
+    grid-row: span 3;
+    padding: 20px 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.top , .mid , .bottom{
+    font-size: 25px;
+}
+.mid li{
+    padding: 10px 0px;
+}
+/*---------PARTE DE ABAJO-------*/
+.headabajo{
+    grid-column: 1/3;
+
+    display: block;
+    
+}
+.espacio{
+    padding: 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.caja img{
+    width: 50%;
+    height: 35%;
+    align-content: justify;
+}
+.caja h1{
+    margin-top: 20px;
+
+}
+.caja{
+    border-bottom: 1px solid #747474;
+    padding-bottom: 50px;
+    text-align: center;
+    padding: 40px;
+}
+.bott{
+    border: 1px solid white;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    margin:10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.bott1, .bott2{
+    color: white;
+}
+.bott3, .bott4{
+    color: white;
+}
+.bott1:hover, .bott2:hover{
+    color: #3498db;
+}
+.bott3:hover, .bott4:hover{
+    color: #3498db;
+}
+.bott::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%
+    height: 0%;
+    background: red;
+    z-index: -1;
+    transition: 0.8s; 
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*-------------BANNER2-----------------*/
+.branding{
+    width: 100%;
+    max-width: 100%;
+    height: 120vh;
+    background-color:#293241;
+    color: #ffffff;
+    
+}
+/*---------ENCABEZADO--------------*/
+
+#logosolo1{
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.header{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #4a5d7e ;
+}
+
+/*-------TEXTO DERECHA SUPERIOR-------*/
+.headtxt ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.mayus{
+    font-weight: 500;
+    font-size: 30px;
+}
+.minus{
+    font-weight: 300;
+    font-size: 19px;
+}
+/*-------- TEXTO CENTRADO------*/
+.brandtext{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.brandtext h1{
+    font-size: 90px;
+    font-weight: 300;
+}
+.brandtext p{   
+    font-size: 20px;
+    font-weight: 300;
+}
+/*------PLANCHADO------*/
+.movi img{
+    width: 80%;
+    margin-left: 5%;
+
+}
+/*-------IMAGENES-----*/
+.resp{
+    display: none;
+}
+/*-------------------------------------------------------------------------------------*/
+.venta{
+    width: auto;
+    max-width: 100%;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 0.5fr 1fr 1fr 0.09fr;
+    grid-template-rows:0.09fr 1fr;
+    grid-gap: 1.5px;
+    background-color: #747474;
+    margin: 4px;
+    
+}
+/*---------PARTE IZQUIERDA--------*/
+.asideleft{
+    grid-row: 1/3;
+    background: #293241; ;
+}
+#logoas1{
+    width: 80px;
+    margin-left: 30px;
+
+    margin-right: auto;
+    display: block;
+}
+.asideleft{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.asideleft ul li{
+    padding: 3px 5px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+#candadoas1{
+    width: 100%;
+}
+
+
+
+/*------------GENERAL DE CLASSS-------------*/
+.ventamenu1 , .ventamenu2 ,.ventaiconos 
+,.ventainfo , .ventadesc{
+background: #eceef1;
+}
+/*------TEXTO SUPERIOR CENTRO--------*/
+.ventamenu1 ul li, .ventamenu2 ul li{
+    display: inline-block ;
+    padding: 0 15px;
+    font-size: 20px;
+}
+.ventamenu1 ul , .ventamenu2 ul{
+    width: 60%;
+    margin: 20px 20%;
+}
+.ventamenu1 button{
+    padding: 15px;
+}
+.ventamenu1 button:hover{
+    color: #3498db;
+}
+.ventamenu2 button{
+    padding: 15px;
+}
+.ventamenu2 button:hover{
+    color: #3498db;
+}
+
+
+/*----------PARTE DERECHA---------*/
+.ventaiconos{
+    grid-row: span 3;
+    padding: 20px 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+/*------TEXTO CENTRAL--------*/
+.ventainfo{
+    padding-left: 30px;
+    padding-top: 30px;
+
+}
+.ventainfo h1{
+    font-size: 40px;
+    font-weight: 500;
+    width: 60%;
+}
+.ventainfo p{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    width: 90%;
+    padding-bottom:50px;
+    text-align: justify;
+}
+.ventainfo h2{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.ventainfo li{
+    display: inline-block;
+    padding: 15px 0;
+    font-size: 22px;
+    font-weight: 300;
+}
+.ventainfo li:last-child{
+    font-size: 20px;
+}
+.ventainfo ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #747474;
+    margin: 0 auto;
+    width: 90%;
+}
+
+/*-----------IMAGENES CENTRALES------*/
+
+.ventadesc img:hover{
+    transform: scale(1.1);
+
+}
+#board{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin: 0 5%;
+    width: 90%;
+}
+#boardinf{
+    width: 60%;
+    margin: 8% 20%;
+}
+
+
+/*--------TEXTO BOTONES--------*/
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.boxes a{
+    width: 20%;
+    margin-top: 5%;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px 18px;
+    background: white;
+    color: #000000;
+}
+.boxes a:hover{
+    background: #9a1f40;
+
+}
+/*----------------------------------------------------------------------------------*/
+/*------------FOOTER--------*/
+.footer{
+    background-color: #293241;
+    color: white;
+    height: 400px;
+    position: relative;
+    font-size: 20px;
+
+}
+/*---CAJAS---*/
+.footer .footer-content{
+    border: 1px solid white;
+    height: 350px;
+    display: flex;
+}
+/*-------CORREO Y NUMERO-----*/
+.footer .footer-content .footer-section{
+    flex: 1;
+    padding: 25px;
+    border: 1px solid white;
+}
+/*-------TEXTO------*/
+.footer .footer-content h1, .footer .footer-content h2{
+    color: white;
+}
+/*-----LETRAS INCIIALES----*/
+.footer .footer-content .about h1 span{
+    color: skyblue;
+}
+/*-------ICONOS-----*/
+.footer .footer-content .about .socials a{
+    border: 1px solid gray;
+    width: 45px;
+    height: 42px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius:  5px;
+}
+/*-------COPYRIGHT-----*/
+.footer .footer-bottom {
+    background: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+}
